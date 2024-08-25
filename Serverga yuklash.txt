@@ -1,0 +1,9 @@
+
+ssh -i "C:\Users\ASUS\Desktop\Ishlarim\serverga_yuklash_uchun\teamX.pem" ubuntu@51.21.2.60	
+
+screen -S ismi # yangi sikrin yaratadi
+screen -r ismi #kiradi
+screen -list #listlar
+screen -XS nomi quit #o'chirib tashlaydi
+
+python3 app.py
